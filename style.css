@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 148, 250);
+    height: 100%;
+    gap: 30px;
+}
+input {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+}
+button {
+    border-radius: 30px;
+    background-color: rgb(211, 108, 108);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: orange;
+}
+button:active {
+    background-color: orangered;
+}
+#from-text, #to-text {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.translate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
